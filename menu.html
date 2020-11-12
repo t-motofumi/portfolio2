@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Hind&display=swap" rel="stylesheet">
+    <title>メニュー | Study-cafe ~自己学習に特化したカフェ~</title>
+</head>
+
+<body>
+<!-- TOP画像 -->
+<div class="hero-img menu-img"></div>
+
+<div class="header-wrap">
+    <header id="header">
+        <div class="site-width">
+            <div class="top-logo logo"><a href="index.html">Study cafe</a></div>
+            <nav class="top-nav">
+            <ul>
+                <li><a href="index.html">ホーム</a></li>
+                <li><a href="menu.html">メニュー</a></li>
+                <li><a href="service.html">サービス</a></li>
+                <li><a href="contact.html">お問い合わせ</a></li>
+                <li><a href="login.html">ログイン</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <!-- パンくずリスト -->
+    <ol class="breadCrumb" itemscope itemtype="https://schema.org/BreadcrumbList">
+    <li itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
+        <a itemprop="item" href="index.html">
+            <span itemprop="name" class="is-red">HOME</span>
+        </a>
+        <meta itemprop="position" content="1">
+    </li>
+    <li itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
+        <a itemprop="item" href="menu.html">
+            <span itemprop="name">メニュー</span>
+        </a>
+        <meta itemprop="position" content="2">
+    </li>
+    </ol>
+    <!-- TOPタイトル -->
+    <div class="title text-center">
+        <h1>Menu</h1>
+        <p class="sub-title">メニュー</p>
+      </div>
+</div>
+
+
+<!-- メインコンテンツ -->
+<main id="main">
+
+    <div class="main-wrap menu-wrap">
+        <!-- サイドメニュー -->
+        <div class="side-menu left-menu">
+            <!-- slideToggle -->
+            <div class="slideDown-menu">
+                <div class="acodion-menu">
+                    <label for="panel1">
+                        ドリンク
+                    </label>
+                    <input type="checkbox" id="panel1" class="toggle-btn">
+                    <ul>
+                        <li><a href="">コーヒー</a></li>
+                        <li><a href="">炭酸ドリンク</a></li>
+                        <li><a href="">デザートドリンク</a></li>
+                    </ul>
+                    <label for="panel2">
+                        フード
+                    </label>
+                    <input type="checkbox" id="panel2" class="toggle-btn">
+                    <ul>
+                        <li><a href="">お菓子</a></li>
+                        <li><a href="">パフェ</a></li>
+                        <li><a href="">デザート</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <!-- メインメニュー -->
+        <div class="main-menu menu-right">
+            <!-- 新商品 -->
+            <div class="new-wrap">
+                <h2>新商品</h2>
+                <div class="new-menu is-flex">
+                    <div class="item-box">
+                        <div class="badge">
+                            <span class="badge-text badge-red">NEW</span>
+                        </div>
+                        <img src="img/choko1x1.jpg" alt="" width="280" height="300">
+                        <p>チョコバニラアイスパフェ</p>
+                    </div>
+                    <div class="item-box">
+                        <div class="badge">
+                            <span class="badge-text  badge-red">NEW</span>
+                        </div>
+                        <img src="img/itigo1x1.jpg" alt="" width="280" height="300">
+                        <p>イチゴミルクチョコパフェ</p>
+                    </div>
+                    <div class="item-box">
+                        <div class="badge">
+                            <span class="badge-text badge-red">NEW</span>
+                        </div>
+                        <img src="img/gure-pu1x1.jpg" alt="" width="280" height="300">
+                        <p>グレープイチゴミルクパフェ</p>
+                    </div>
+                </div>
+            </div>
+            <!-- メニュー一覧 -->
+            <div class="item-wrap item-wrap__menu">
+                <h2>コーヒー</h2>
+                <div class="item-menu">
+                    <ul>
+                        <li class="item-box item-li">
+                            <div class="badge">
+                                <span class="badge-text badge-yellow">人気</span>
+                            </div>
+                            <img src="img/coffee-menu01.jpg" alt="" width="217" height="217">
+                            <p>コーヒー</p>
+                        </li>
+                        <li class="item-box item-li">
+                            <div class="badge">
+                                <span class="badge-text badge-yellow">人気</span>
+                            </div>
+                            <img src="img/coffee-menu02.jpg" alt="" width="217" height="217">
+                            <p>カフェオレ</p>
+                        </li>
+                        <li class="item-box item-li">
+                            <img src="img/coffee-menu03.jpg" alt="" width="217" height="217">
+                            <p>カフェモカ</p>
+                        </li>
+                        <li class="item-box item-li">
+                            <img src="img/coffee-menu04.jpg" alt="" width="217" height="217">
+                            <p>アメリカン</p>
+                        </li>
+                    </ul>
+                </div>
+                <div class="item-menu">
+                    <ul>
+                        <li class="item-box item-li">
+                            <img src="img/coffee-menu05.jpg" alt="" width="217" height="217">
+                            <p>カフェラテ</p>
+                        </li>
+                        <li class="item-box item-li">
+                            <img src="img/coffee-menu06.jpg" alt="" width="217" height="217">
+                            <p>カプチーノ</p>
+                        </li>
+                        <li class="item-box item-li">
+                            <img src="img/coffee-menu07.jpg" alt="" width="217" height="217">
+                            <p>エスプレッソ</p>
+                        </li>
+                        <li class="item-box item-li">
+                            <img src="img/coffee-menu08.jpg" alt="" width="217" height="217">
+                            <p>ヨーロピアン</p>
+                        </li>
+                    </ul>
+                </div>
+                <div class="item-menu">
+                    <ul>
+                        <div class="item-box item-li">
+                            <img src="img/coffee-menu09.jpg" alt="" width="217" height="217">
+                            <p>クリーミーラテ</p>
+                        </div>
+                    </ul>
+                </div>
+            </div>
+
+        </div>
+    </div>
+    <div class="pagenation">
+        <ul>
+            <li>&lt;&lt;</li>
+            <li>1</li>
+            <li>2</li>
+            <li>&gt;&gt;</li>
+        </ul>
+    </div>
+
+</main>
+
+
+
+
+
+
+
+
+
+
+
+<footer id="footer">
+    <div class="end-logo logo"><a href="index.html">Study cafe</a></div>
+    <nav class="end-nav">
+        <ul>
+            <li class="end-li"><a href="index.html">ホーム</a></li>
+            <li class="end-li"><a href="menu.html">メニュー</a></li>
+            <li class="end-li"><a href="service.html">サービス</a></li>
+            <li class="end-li"><a href="contact.html">お問い合わせ</a></li>
+            <li class="end-li"><a href="login.html">ログイン</a></li>
+        </ul>
+    </nav>
+    <span class="copyLiting">Copy righting.  study-cafe@.com</span>
+
+</footer>
+<!-- jQuery読み込み -->
+<script src="https://code.jquery.com/jquery-3.5.1.slim.js" integrity="sha256-DrT5NfxfbHvMHux31Lkhxg42LY6of8TaYyK50jnxRnM=" crossorigin="anonymous">
+</script>
+
+<!-- JSファイル読込み -->
+<script type="text/javascript" src="js/script.js"></script>
+</body>
+</html>

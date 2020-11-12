@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Hind&display=swap" rel="stylesheet">
+    <title>サービス | Study-cafe ~自己学習に特化したカフェ~</title>
+</head>
+
+<body>
+<!-- TOP画像 -->
+<div class="hero-img service-img"></div>
+
+<div class="header-wrap">
+    <header id="header">
+        <div class="site-width">
+            <div class="top-logo logo"><a href="index.html">Study cafe</a></div>
+            <nav class="top-nav">
+            <ul>
+                <li><a href="index.html">ホーム</a></li>
+                <li><a href="menu.html">メニュー</a></li>
+                <li><a href="service.html">サービス</a></li>
+                <li><a href="contact.html">お問い合わせ</a></li>
+                <li><a href="login.html">ログイン</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <!-- パンくずリスト -->
+    <ol class="breadCrumb" itemscope itemtype="https://schema.org/BreadcrumbList">
+    <li itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
+        <a itemprop="item" href="index.html">
+            <span itemprop="name" class="is-red">HOME</span>
+        </a>
+        <meta itemprop="position" content="1">
+    </li>
+    <li itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
+        <a itemprop="item" href="menu.html">
+            <span itemprop="name">サービス</span>
+        </a>
+        <meta itemprop="position" content="2">
+    </li>
+    </ol>
+    <!-- TOPタイトル -->
+    <div class="title text-center">
+        <h1>Service</h1>
+        <p class="sub-title">サービス</p>
+      </div>
+</div>
+
+
+<!-- メインコンテンツ -->
+<main id="main">
+
+    <div class="main-wrap serviceMenu-wrap">
+        
+        <!-- メインメニュー -->
+        <div class="main-menu menu-right">
+            
+            <!-- サービス一覧 -->
+            <div class="item-wrap item-wrap__service">
+                <h2>サービス</h2>
+                <div class="item-menu">
+                    <ul>
+                        <li class="item-box item-li">
+                            <img src="img/coffee2.jpg" alt="" width="280" height="200">
+                            <p>飲食無料</p>
+                        </li>
+                        <li class="item-box item-li">
+                            <img src="img/air-pods.jpg" alt="" width="300" height="200">
+                            <p>備品貸し出し</p>
+                        </li>
+                        <li class="item-box item-li">
+                            <img src="img/book.jpg" alt="" width="300" height="200">
+                            <p>本貸し出し</p>
+                        </li>
+                    </ul>
+                </div>
+                <div class="item-menu">
+                    <ul>
+                        <li class="item-box item-li">
+                            <img src="img/relux.jpg" alt="" width="300" height="200">
+                            <p>リクライニングチェアー</p>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <!-- イベント -->
+            <div class="new-wrap ivent-wrap">
+                <h2>イベント</h2>
+                <div class="new-menu is-flex">
+                    <div class="item-box">
+                        <!-- バッジ -->
+                        <div class="badge">
+                            <span class="badge-text badge-red">NEW</span>
+                        </div>
+                        <img src="img/ivent01-1x1.jpg" alt="" width="300" height="240">
+                        <p>第一回 もくもく会 in 大阪</p>
+                    </div>
+                    <div class="item-box">
+                        <!-- バッジ -->
+                        <div class="badge">
+                            <span class="badge-text  badge-red">NEW</span>
+                        </div>
+                        <img src="img/ivent02.jpg" alt="" width="280" height="240">
+                        <p>目標達成チャレンジ</p>
+                    </div>
+                    <div class="item-box">
+                        <!-- バッジ -->
+                        <div class="badge">
+                            <span class="badge-text badge-red">NEW</span>
+                        </div>
+                        <img src="img/ivent03.jpg" alt="" width="280" height="240">
+                        <p>商用利用可能</p>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+        <!-- サイドメニュー -->
+        <div class="side-menu right-menu">
+            <!-- slideToggle -->
+            <div class="slideDown-menu">
+                <div class="acodion-menu">
+                    <label for="panel1">サービス一覧</label>
+                    <input type="checkbox" id="panel1" class="toggle-btn">
+                    <ul>
+                        <li><a href="">飲食無料</a></li>
+                        <li><a href="">備品貸し出し</a></li>
+                        <li><a href="">本貸し出し</a></li>
+                        <li><a href="">リクライニングチェアー</a></li>
+                    </ul>
+                    <label for="panel2">備品一覧</label>
+                    <input type="checkbox" id="panel2" class="toggle-btn">
+                    <ul>
+                        <li><a href="">APPLE製品</a></li>
+                        <li><a href="">PC</a></li>
+                        <li><a href="">充電器</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <div class="pagenation">
+        <ul>
+            <li>&lt;&lt;</li>
+            <li>1</li>
+            <li>2</li>
+            <li>&gt;&gt;</li>
+        </ul>
+    </div>
+
+</main>
+
+
+
+
+
+
+
+
+
+
+
+<footer id="footer">
+    <div class="end-logo logo"><a href="index.html">Study cafe</a></div>
+    <nav class="end-nav">
+        <ul>
+            <li class="end-li"><a href="index.html">ホーム</a></li>
+            <li class="end-li"><a href="menu.html">メニュー</a></li>
+            <li class="end-li"><a href="service.html">サービス</a></li>
+            <li class="end-li"><a href="contact.html">お問い合わせ</a></li>
+            <li class="end-li"><a href="login.html">ログイン</a></li>
+        </ul>
+    </nav>
+    <span class="copyLiting">Copy righting.  study-cafe@.com</span>
+
+</footer>
+
+</body>
+</html>
